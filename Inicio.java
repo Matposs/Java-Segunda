@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Inicio {
     public static void main(String[] args) {
         int menu=0;
@@ -10,6 +12,8 @@ public class Inicio {
         System.out.println("6 - Listar venda \n");
         System.out.println("0 - Sair \n");
         menu = Console.readInt("Informe o valor");
+        // Cliente cliente = new Cliente();
+        // ArrayList <Cliente> clientes = new ArrayList<Cliente>();
         
         switch(menu){
             case 0:
